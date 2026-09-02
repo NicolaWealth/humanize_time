@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "composite": false,
     "outDir": "dist/types",
     "declaration": true,
     "emitDeclarationOnly": true
